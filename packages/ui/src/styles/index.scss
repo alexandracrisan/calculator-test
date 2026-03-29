@@ -1,0 +1,20 @@
+@use './variables' as *;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --ui-color-text: #{$ui-color-text};
+  --ui-color-text-muted: #{$ui-color-text-muted};
+  --ui-color-surface: #{$ui-color-surface};
+  --ui-color-surface-muted: #{$ui-color-surface-muted};
+  --ui-color-border: #{$ui-color-border};
+  --ui-color-border-strong: #{$ui-color-border-strong};
+  --ui-color-accent: #{$ui-color-accent};
+  --ui-color-accent-soft: #{$ui-color-accent-soft};
+  --ui-color-danger: #{$ui-color-danger};
+  --ui-color-danger-soft: #{$ui-color-danger-soft};
+}

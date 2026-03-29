@@ -1,0 +1,10 @@
+.ui-keypad {
+  display: grid;
+  gap: 8px;
+  width: 100%;
+}
+
+.ui-keypad-button {
+  min-height: 56px;
+  width: 100%;
+}

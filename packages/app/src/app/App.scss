@@ -1,0 +1,32 @@
+.app {
+  width: min(960px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 24px 0 40px;
+}
+
+.app-header {
+  margin-bottom: 24px;
+}
+
+.app-title {
+  margin: 0 0 16px;
+  font-size: 28px;
+}
+
+.app-nav {
+  display: flex;
+  gap: 12px;
+}
+
+.app-nav-link {
+  padding: 8px 14px;
+  border: 1px solid var(--app-color-border);
+  border-radius: 6px;
+  background: var(--app-color-surface);
+  font-size: 14px;
+}
+
+.app-nav-link-active {
+  border-color: var(--app-color-accent);
+  color: var(--app-color-accent);
+}

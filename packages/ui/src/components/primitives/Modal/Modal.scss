@@ -1,0 +1,36 @@
+@use '../../../styles/variables' as *;
+
+.ui-modal-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: rgba(17, 17, 17, 0.45);
+}
+
+.ui-modal {
+  width: 100%;
+  max-width: 480px;
+  border-radius: 12px;
+  background: $ui-color-surface;
+  box-shadow: 0 20px 48px rgba(17, 17, 17, 0.2);
+}
+
+.ui-modal-title {
+  padding: 16px 20px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.ui-modal-body {
+  padding: 16px 20px;
+}
+
+.ui-modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  padding: 0 20px 20px;
+}

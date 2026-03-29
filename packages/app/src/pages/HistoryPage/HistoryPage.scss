@@ -1,0 +1,39 @@
+.history-page {
+  display: grid;
+}
+
+.history-card {
+  padding: 20px;
+  border: 1px solid var(--app-color-border);
+  border-radius: 8px;
+  background: var(--app-color-surface);
+}
+
+.history-title {
+  margin: 0 0 12px;
+  font-size: 16px;
+}
+
+.history-text {
+  margin: 0 0 16px;
+  font-size: 14px;
+  color: var(--app-color-text-muted);
+}
+
+.history-list {
+  display: grid;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.history-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 6px;
+  background: var(--app-color-surface-muted);
+  font-size: 14px;
+}

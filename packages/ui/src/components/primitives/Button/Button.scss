@@ -1,0 +1,46 @@
+@use '../../../styles/variables' as *;
+
+.ui-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 40px;
+  padding: 0 16px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  font: inherit;
+  font-size: 14px;
+  background: $ui-color-accent;
+  color: #ffffff;
+  cursor: pointer;
+
+  &:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 4px $ui-color-accent-soft;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.72;
+  }
+}
+
+.ui-button-primary {
+  background: $ui-color-accent;
+  color: #ffffff;
+}
+
+.ui-button-secondary {
+  border-color: $ui-color-border;
+  background: $ui-color-surface;
+  color: $ui-color-text;
+}
+
+.ui-button-loading {
+  pointer-events: none;
+}
+
+.ui-button-spinner {
+  color: currentColor;
+}

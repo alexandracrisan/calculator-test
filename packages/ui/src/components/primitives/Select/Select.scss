@@ -1,0 +1,47 @@
+@use '../../../styles/variables' as *;
+
+.ui-select-field {
+  display: grid;
+  gap: 6px;
+  width: 100%;
+}
+
+.ui-select-field-control {
+  width: 100%;
+  min-height: 48px;
+  padding: 0 14px;
+  border: 1px solid $ui-color-border;
+  border-radius: $ui-radius-md;
+  background: $ui-color-surface;
+  color: $ui-color-text;
+  font: inherit;
+  font-size: 14px;
+  box-sizing: border-box;
+
+  &:focus-visible {
+    outline: none;
+    border-color: $ui-color-accent;
+    box-shadow: 0 0 0 4px $ui-color-accent-soft;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.72;
+    background: $ui-color-surface-muted;
+  }
+}
+
+.ui-select-field-control-error {
+  border-color: $ui-color-danger;
+
+  &:focus-visible {
+    outline: none;
+    border-color: $ui-color-danger;
+    box-shadow: 0 0 0 4px $ui-color-danger-soft;
+  }
+}
+
+.ui-select-field-error {
+  color: $ui-color-danger;
+  font-size: 14px;
+}

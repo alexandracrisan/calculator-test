@@ -1,0 +1,40 @@
+@use './variables' as *;
+
+:root {
+  --app-color-accent: #{$app-color-accent};
+  --app-color-text: #{$app-color-text};
+  --app-color-text-muted: #{$app-color-text-muted};
+  --app-color-border: #{$app-color-border};
+  --app-color-surface: #{$app-color-surface};
+  --app-color-surface-muted: #{$app-color-surface-muted};
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: 'Segoe UI', sans-serif;
+  color: var(--app-color-text);
+  background: #f7f8f9;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#root {
+  min-height: 100vh;
+}

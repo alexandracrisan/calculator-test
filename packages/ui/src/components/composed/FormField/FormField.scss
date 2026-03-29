@@ -1,0 +1,21 @@
+@use '../../../styles/variables' as *;
+
+.ui-form-field {
+  display: grid;
+  gap: 6px;
+  width: 100%;
+}
+
+.ui-form-field-label {
+  font-size: 14px;
+  color: $ui-color-text;
+}
+
+.ui-form-field-control {
+  width: 100%;
+}
+
+.ui-form-field-helper {
+  font-size: 14px;
+  color: $ui-color-text-muted;
+}

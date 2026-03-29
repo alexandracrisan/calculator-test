@@ -1,0 +1,14 @@
+.ui-input-action {
+  width: 100%;
+}
+
+.ui-input-action-control {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px;
+  align-items: start;
+}
+
+.ui-input-action-field {
+  width: 100%;
+}
