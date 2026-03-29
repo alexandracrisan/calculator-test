@@ -1,0 +1,11 @@
+{
+  "name": "calculator-lib",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "workspaces": ["packages/*"],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
