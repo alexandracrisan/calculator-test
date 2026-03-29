@@ -4,6 +4,12 @@
   "private": true,
   "main": "index.js",
   "workspaces": ["packages/*"],
+  "scripts": {
+    "dev": "npm run dev --workspace packages/app",
+    "dev:ui": "npm run dev --workspace packages/ui",
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
