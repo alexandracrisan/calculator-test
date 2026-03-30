@@ -1,0 +1,17 @@
+.calculator-display-panel {
+  display: grid;
+  gap: 10px;
+}
+
+.calculator-display-input {
+  min-height: 56px;
+  font-size: 24px;
+  text-align: right;
+}
+
+.calculator-display-result {
+  margin: 0;
+  font-size: 14px;
+  color: var(--app-color-text-muted);
+  text-align: right;
+}

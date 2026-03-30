@@ -16,3 +16,9 @@ npm install
 ```bash
 npm run dev
 ```
+
+## Test UI Library
+
+```bash
+npm run test --workspace packages/ui
+```

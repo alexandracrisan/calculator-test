@@ -1,0 +1,19 @@
+.history-list-item {
+  padding: 12px;
+  border-radius: 6px;
+  background: var(--app-color-surface-muted);
+}
+
+.history-list-item-content {
+  display: grid;
+  gap: 4px;
+}
+
+.history-list-item-label {
+  font-size: 14px;
+}
+
+.history-list-item-expression {
+  font-size: 14px;
+  color: var(--app-color-text-muted);
+}

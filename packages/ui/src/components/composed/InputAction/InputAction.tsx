@@ -30,7 +30,7 @@ export function InputAction({
   return (
     <div className={classes}>
       <div className="ui-input-action-control">
-        <Input {...inputProps} className="ui-input-action-field" error={error} inputClassName={inputClassName} />
+        <Input {...inputProps} error={error} inputClassName={inputClassName} />
         <Button
           className={buttonClassName}
           disabled={buttonDisabled}

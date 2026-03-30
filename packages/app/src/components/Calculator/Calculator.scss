@@ -1,0 +1,22 @@
+.calculator {
+  display: grid;
+  gap: 16px;
+}
+
+.calculator-card {
+  display: grid;
+  gap: 16px;
+  padding: 20px;
+  border: 1px solid var(--app-color-border);
+  border-radius: 12px;
+  background: var(--app-color-surface);
+}
+
+.calculator-actions {
+  display: grid;
+  gap: 12px;
+}
+
+.calculator-action-button {
+  width: 100%;
+}
