@@ -1,24 +1,70 @@
 # Calculator App
 
-## Structure
+React + TypeScript monorepo
 
-- `packages/ui` – reusable UI component library
-- `packages/app` – demo calculator application 
+It contains:
+
+- `packages/ui` - reusable UI component library
+- `packages/app` - calculator demo application consuming the UI package
+
+## Tech Stack
+
+- React
+- TypeScript
+- Vite
+- SCSS
+- React Router
+- Vitest + Testing Library
+
+## Project Structure
+
+```text
+packages/
+  app/
+    src/
+      app/
+      pages/
+      components/
+      hooks/
+      services/
+      types/
+      utils/
+  ui/
+    src/
+      components/
+        primitives/
+        composed/
+      styles/
+```
 
 ## Setup
 
 ```bash
 npm install
-``` 
+```
 
-## Run
+## Run The App
 
 ```bash
 npm run dev
 ```
 
-## Test UI Library
+
+## Build
 
 ```bash
-npm run test --workspace packages/ui
+npm run build
 ```
+
+## Test
+
+Run all workspace tests:
+
+```bash
+npm run test
+```
+
+The calculator is available on:
+
+- `/calculator`
+- `/history`
